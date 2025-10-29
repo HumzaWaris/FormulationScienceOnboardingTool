@@ -1,0 +1,15 @@
+{
+    "dockerfile_lines": [],
+    "graphs": {
+        "default": "./main.py:react_graph"
+    },
+    "env": "./.env.local",
+    "python_version": "3.13",
+    "dependencies": [
+        "-r requirements.txt"
+    ],
+    "dev": {
+        "port": 2024,
+        "host": "127.0.0.1"
+    }
+}
